@@ -9,8 +9,8 @@ The created Dockerfile can be uploaded in the last section of the questionnaire 
 ## Description of the App
 
 ### Routes
-* __`*GET /*` :__  Renders the homepage, prompting the user to enter his/her name.
-* __`*POST /mainpage*` :__ Renders a page, that displays a greeting with the name given by the user in the main page
+* __`GET /` :__  Renders the homepage, prompting the user to enter his/her name.
+* __`POST /mainpage` :__ Renders a page, that displays a greeting with the name given by the user in the main page
 
 ### Files/Folders
 
