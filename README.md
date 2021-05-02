@@ -17,5 +17,5 @@ The created Dockerfile can be uploaded in the last section of the questionnaire 
 * __app.py :__ Entry point for the application
 * __requirements.txt :__ Contains the list of necessary dependencies for the app to run.
 *  __templates :__ Folder containing templates
-   * __index.html :__ Template for `GET /`
-   * __mainpage.html :__ Template for `POST /mainpage`
+   * __index.html :__ Template for __`GET /`__
+   * __mainpage.html :__ Template for __`POST /mainpage`__
