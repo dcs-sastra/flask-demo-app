@@ -1,5 +1,5 @@
 # flask-demo-app
-This repository contains a simple Flask (Python) based web application.
+This repository contains a simple Flask (Python) based web application, that asks the user name, and displays a personalized greeting with the entered name.
 
 ## Task
 Create a Dockerfile with suitable commands to create an image that enables a container to run this application on port 5685, after installing any necessary dependencies.
