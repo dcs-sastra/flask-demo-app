@@ -9,13 +9,13 @@ The created Dockerfile can be uploaded in the last section of the questionnaire 
 ## Description of the App
 
 ### Routes
-* __*GET /* :__  Renders the homepage, prompting the user to enter his/her name.
-* __*POST /mainpage* :__ Renders a page, that displays a greeting with the name given by the user in the main page
+* __`*GET /*` :__  Renders the homepage, prompting the user to enter his/her name.
+* __`*POST /mainpage*` :__ Renders a page, that displays a greeting with the name given by the user in the main page
 
 ### Files/Folders
 
 * __app.py :__ Entry point for the application
 * __requirements.txt :__ Contains the list of necessary dependencies for the app to run.
 *  __templates :__ Folder containing templates
-   * __index.html :__ Template for *GET /*
-   * __mainpage.html :__ Template for *POST /mainpage*
+   * __index.html :__ Template for `GET /`
+   * __mainpage.html :__ Template for `POST /mainpage`
