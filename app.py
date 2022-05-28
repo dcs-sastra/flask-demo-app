@@ -6,6 +6,7 @@ app = Flask(__name__)
 @app.route('/mainpage',methods=['POST'])
 def show_main_page():
     name=request.form.get('name','Random User')
+    print(name)
     return render_template('./mainpage.html',name=name)
 
 @app.route('/')
